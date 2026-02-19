@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple One Page</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 800px;
+        margin: 40px auto;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    p {
+        line-height: 1.6;
+        color: #555;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Welcome to My One Page</h1>
+
+    <p>This is a simple one-page website example created using HTML, CSS, and JavaScript.</p>
+
+    <p>Here you can add details like:</p>
+    <ul>
+        <li>Your name</li>
+        <li>About section</li>
+        <li>Skills or services</li>
+        <li>Contact information</li>
+    </ul>
+
+    <p>This page is beginner-friendly and good for practice.</p>
+
+    <button onclick="sayHello()">Say Hello</button>
+</div>
+
+<script>
+function sayHello() {
+    alert("Hello 👋");
+}
+</script>
+
+</body>
+</html>
